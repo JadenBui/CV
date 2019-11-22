@@ -1,0 +1,43 @@
+img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+body{
+    background-color:#beebe9;
+    margin: 0;
+}
+
+.avatar{
+    margin-top: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.intro{
+    font-size: 30px;
+    height: 500px;
+    background-image: url("image/sky3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+#welcome{
+    background-color: deepskyblue;
+    opacity: 0.8;
+    width: 430px;
+    margin: auto;
+}
+
+#welcome:hover {
+    background-color: black;
+    width: 430px;
+    margin: auto;
+    color: white;
+}
+
