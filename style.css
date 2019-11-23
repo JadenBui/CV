@@ -1,6 +1,17 @@
 body{
     margin: 0;
 }
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
 
 .hiline{
     font-family: 'Alata', sans-serif;
@@ -10,37 +21,38 @@ body{
 .avatar{
     width: 150px;
     height: 150px;
-    top: 12%;
-    border-radius: 50%;
     display: inline-block;
     position: relative;
-    bottom: 37%;
+    border-radius: 50%;
+    top: 25px;
 }
 
 .intro{
     font-size: 30px;
-    height: 200px;
-    width: 100%;
-    color: black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    color: whitesmoke;
     text-align: center;
     font-family: 'Alata', sans-serif;
-    background: #9be3de;
+    background: #42dee1;
+    position: relative;
+    background-image: url("image/sky2.jpg");
+    background-size: 100% 100%;
 }
 
 #welcome{
-    background-color: deepskyblue;
     opacity: 0.8;
-    width: 30%;
-    margin: auto;
+    width: 40%;
+    margin: 0;
     display: inline-block;
     position: relative;
-    bottom: 45%;
-    right: 20%;
+    right: 5%;
 }
 
 #welcome:hover {
     background-color: black;
-    width: 30%;
+    width: 40%;
     margin: auto;
     color: white;
 }
