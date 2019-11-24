@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    text-align: center;
 }
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
@@ -14,8 +15,11 @@ body{
 }
 
 .hiline{
-    font-family: 'Alata', sans-serif;
-    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    font-size: 3rem;
+    background-color:#9be3de;
+    width: 82%;
 }
 
 .avatar{
@@ -24,11 +28,11 @@ body{
     display: inline-block;
     position: relative;
     border-radius: 50%;
-    top: 25px;
+    top: 1rem;
 }
 
 .intro{
-    font-size: 30px;
+    font-size: 2rem;
     height: 100%;
     width: 82%;
     margin: auto;
@@ -57,3 +61,17 @@ body{
     color: white;
 }
 
+.img1{
+    width: 15%;
+    height: 15%;
+}
+
+.img2{
+    width: 15%;
+    height: 15%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+}
