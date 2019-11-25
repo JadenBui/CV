@@ -18,7 +18,8 @@ body{
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     font-size: 3rem;
-    background-color:#9be3de;
+    background-image: url(image/sky.jpg);
+    color: white;
     width: 82%;
 }
 
@@ -58,20 +59,46 @@ body{
     background-color: black;
     width: 40%;
     margin: auto;
-    color: white;
 }
 
 .img1{
     width: 15%;
     height: 15%;
+    float: right;
+    margin-left: 2rem;
 }
 
 .img2{
     width: 15%;
     height: 15%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.profile{
+    width: 35%;
+    margin: auto;
 }
 
 .skill-row{
     width: 50%;
     margin: auto;
+}
+
+.middle-container{
+    line-height: 2;
+}
+
+.bottom-container{
+    background-color: #51eaea;
+    height: 5rem;
+    color: black;
+    line-height: 2;
+}
+
+hr{
+    height: 1rem;
+    width: 82%;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(47, 221, 252);
 }
