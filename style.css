@@ -45,7 +45,7 @@ html {
     margin: auto;
     text-align: center;
     font-family: 'Alata', sans-serif;
-    background: #cadefc;
+    background: #f7fbfc;
     position: relative;
 }
 
@@ -60,7 +60,7 @@ html {
 }
 
 #welcome:hover {
-    background-color: black;
+    background-color: salmon;
     width: 40%;
     margin: auto;
 }
