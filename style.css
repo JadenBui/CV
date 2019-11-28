@@ -26,7 +26,7 @@ html {
     font-size: 3rem;
     color: black;
     width: 82%;
-    background: #e3fdfd;
+    background: #fafafa;
 }
 
 .avatar{
@@ -45,7 +45,7 @@ html {
     margin: auto;
     text-align: center;
     font-family: 'Alata', sans-serif;
-    background: #cbf1f5;
+    background: #cadefc;
     position: relative;
 }
 
@@ -95,7 +95,7 @@ html {
 }
 
 .bottom-container{
-    background-color: #71c9ce;
+    background-color: #004a7c;
     height: 8rem;
     color: black;
     line-height: 2;
@@ -159,9 +159,16 @@ a:hover{
     right: 0;
   }
 
-.navbar-light{
-   background-color: #a6e3e9;
+.navbar-expand-sm{
+   background-color: #005691;
    width: 82%;
    margin: auto;
-   position: fixed;
+}
+
+.nav-link{
+    color: black;
+}
+
+.navbar-brand{
+    color: white;
 }
