@@ -181,3 +181,10 @@ a:hover{
    width: 82%;
    margin: auto;
 }
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(95, 255, 2) !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("image/icoin.png") !important;
+}
