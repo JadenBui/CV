@@ -7,26 +7,32 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+@media only screen and (max-width: 1052px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .avatar{
+        width: 150px !important;
+        height: 150px !important;
+        bottom: 3rem !important;
+    }
 }
 
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+@media only screen and (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .avatar{
+        width: 150px !important;
+        height: 150px !important;
+        bottom: 4.5rem !important;
+    }
 }
 
 @media only screen and (max-width: 700px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     .avatar{
-        width: 100px !important;
-        height: 100px !important;
+        width: 90px !important;
+        height: 90px !important;
         display: block !important;
         margin: auto !important;
-        top: 1.5rem !important;
+        top: 1.2rem !important;
     }
 
     .intro{
@@ -58,10 +64,34 @@ html {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: black;
     width: 82%;
     background: #fafafa;
+}
+
+.hiline {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hiline::before, .hiline::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.hiline::before {
+    margin-right: .25em;
+}
+
+.hiline::after {
+    margin-left: .25em;
+}
+
+#introduction{
+    margin-top: 1rem;
 }
 
 .avatar{
@@ -70,7 +100,7 @@ html {
     display: inline-block;
     position: relative;
     border-radius: 50%;
-    bottom: 1rem;
+    bottom: 1.5rem;
 }
 
 .intro{
