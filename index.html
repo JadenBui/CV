@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 
 <head>
   <meta charset="UTF-8">
@@ -9,9 +8,16 @@
   <meta name="HandheldFriendly" content="true">
   <title>My Website</title>
   <link rel="icon" href="image/icoin.png">
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Alata|Odibee+Sans|Source+Code+Pro&display=swap" rel="stylesheet">
+  <!-- Boostrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -28,22 +34,24 @@
     <div class="collapse navbar-collapse" id="linklist">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a style="color: silver;" class="nav-link" href="">Contact</a>
+          <a style="color: whitesmoke;" class="nav-link" href="">Contact</a>
         </li>
         <li class="nav-item">
-          <a style="color: silver;" class="nav-link" href="">About</a>
+          <a style="color: whitesmoke;" class="nav-link" href="">About</a>
         </li>
         <li class="nav-item">
-          <a style="color: silver;" class="nav-link" href="">Home</a>
+          <a style="color: whitesmoke;" class="nav-link" href="">Home</a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="intro">
     <div id="welcome">
-      <h3 style=" width: 90%; margin: auto; color: black;">Welcome to my website!</h3>
-      <h5 id="introduction" style="font-size:1.5rem;font-weight: normal; font-family: 'Odibee Sans', cursive; text-align: left;">This site
-        contain all of my work and the things that I enjoy of making, feel free to head over any section that you would
+      <h3 style=" width: 90%; margin: auto; font-weight: bold;">Welcome to my website!</h3>
+      <h5
+        style="font-size:1.5rem;font-weight: normal; font-family: 'Odibee Sans', cursive; text-align: left;  margin-top: 1rem">
+        This site
+        contains all of my work and the things that I enjoy of making, feel free to head over any section that you would
         like to know more about!</h5>
     </div>
     <img class="avatar" src="image/avatar.jpg">
@@ -52,45 +60,111 @@
   <br>
   <div style="font-family: 'Alata', sans-serif;" class="middle-container">
     <div class="profile">
-      <h2>Hello.</h2>
-      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+      <h2 style="font-weight: bold;">Hello</h2>
+      <p>I'm currently on my second year in Computer Science of my Bachelor degree.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="prolang">
+          <img class="llogo" src="image/c-language.png" alt="">
+          <span class="tooltiptext">Programming Language - C</span>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="prolang">
+          <img class="llogo" src="image/java-programming.png" alt="">
+          <span class="tooltiptext">Programming Language - Java</span>
+        </div>
+
+      </div>
+      <div class="col-md-4">
+        <div class="prolang">
+          <img class="llogo" src="image/react.png" alt="">
+          <span class="tooltiptext">Javascript Library - React</span>
+        </div>
+
+      </div>
     </div>
     <hr>
     <div class="skills">
-      <h2 style="margin: 3rem auto 3rem auto;">My Skills.</h2>
+      <h2 style="margin: 3rem auto 3rem auto; font-weight: bold;">My Skills</h2>
       <div style="text-align: right;" class="skill-row">
-        <img class="img1" src="image/img1.png" alt="">
-        <h3>Lorem & Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat
-          ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        <img class="img1" src="image/webpage.png" alt="logo">
+        <h3>Web Design</h3>
+        <p>From the lesson I had from school and self-learning, I'm capable of producing a basic functional websites to
+          express my hobbies.</p>
       </div>
       <br>
       <div style="text-align: left;" class="skill-row">
-        <img class="img2" src="image/img1.png" alt="">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
-          Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        <img class="img2" src="image/program.png" alt="logo">
+        <h3>General Programming</h3>
+        <p>I've learn couples of programming language, including Java, C, C#.</p>
       </div>
     </div>
     <br>
     <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-      <a class="btn btn-info" href="mailto:sheepnmouse@email.com"><span>CONTACT ME</span></a>
+    <h3 style="font-weight: bold;">CONTACT ME</h3>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow contact-card">
+              <img class="card-img-top" alt="gmail-img" src="image/gmail.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Enquiry is appreciated via email</p>
+                <div style="margin: auto;">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-dark" href="mailto:sheepnmouse@email.com"><span><i
+                          class="fas fa-envelope"></i> EMAIL
+                        ME</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow contact-card">
+              <img class="card-img-top" alt="facebook-img" src="image/facebook.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Feel like a talk? Add friend now!</p>
+                <div class="margin:auto">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-dark" href="https://www.facebook.com/" target="_blank"><span><i
+                          class="fas fa-user-plus"></i> ADD
+                        ME</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow contact-card">
+              <img class="card-img-top" alt="twitter-img" src="image/twitter.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Twitter preferred? Click on now!</p>
+                <div class="margin: auto">
+                  <div class="btn-group">
+                    <a class="btn btn-outline-dark" href="https://twitter.com/" target="_blank"><span><i
+                          class="fas fa-user-plus"></i></i> ADD
+                        ME</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p>© 2018 Name Surname.</p>
-  </div>
-  <div id="side-img1"></div>
-  <div id="side-img2"></div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p>© 2020 D V Anh.</p>
+    </div>
+    <div id="side-img1"></div>
+    <div id="side-img2"></div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
